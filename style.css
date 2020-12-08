@@ -1,0 +1,52 @@
+:root {
+    font-size: 60%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    background-color: #e7e7e7;
+
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container div {
+    width: auto;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container div {
+    font-size: 2rem;
+}
+
+.container div h2 {
+    margin-bottom: 1.7rem;
+}
+
+.container div button {
+    width: 15.9rem;
+    height: 7rem;
+
+    background-color: #ffffff00;
+    border-width: 1px;
+    border-style: dotted;
+}
